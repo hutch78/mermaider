@@ -1,0 +1,27 @@
+{
+  "name": "oav",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.19.0",
+    "mermaid": "^11.0.0",
+    "nuxt": "^4.0.0",
+    "plantuml-encoder": "^1.4.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "overrides": {
+    "chokidar": "3.6.0"
+  }
+}
+
